@@ -19,7 +19,6 @@ with open("nova_senha.txt", "w", encoding="utf-8") as arquivo:
     print(senha)
 
 # Adicionar novos textos 
-with open("email.txt", "a" , encoding="utf-8") as arquivo:
-    email = arquivo.write("\nalice.sturlese.siveira@gmail.com")
+with open ("email.txt", "w", encoding = "utf-8") as arquivo:
+    email = arquivo.write("alice.silveira@protipandoaquebrada.org\nalice.sturlese.siveira@gmail.com")
     print(email)
-
